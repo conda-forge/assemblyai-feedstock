@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: 0.64.26
+  version: 0.64.31
 
 package:
   name: assemblyai
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/assemblyai/assemblyai-${{ version }}.tar.gz
-  sha256: 7ca174b09f8505f4e565c8de4855486e6dc5511b3db24a4cc02f798db9dca16e
+  sha256: 944d50cec7459126e5f63c8c8452b63bde063e1aaeb7f9f2ce80312f1a16d797
 
 build:
   noarch: python
@@ -25,8 +25,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - httpx >=0.19.0
-    - pydantic >=2.0
-    - pydantic-settings >=2.0
+    - pydantic >=1.10.17
     - typing_extensions >=3.7
     - websockets >=11.0
 tests:
