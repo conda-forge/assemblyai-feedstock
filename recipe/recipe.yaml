@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: 0.64.29
+  version: 0.64.31
 
 package:
   name: assemblyai
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/assemblyai/assemblyai-${{ version }}.tar.gz
-  sha256: b6c6f2eeb27c68a4dd4e56ead3af909ba8bc481c3a041f83e7f597519a3bfd8c
+  sha256: 944d50cec7459126e5f63c8c8452b63bde063e1aaeb7f9f2ce80312f1a16d797
 
 build:
   noarch: python
